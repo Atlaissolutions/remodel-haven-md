@@ -5,7 +5,7 @@ import galleryBathroom from "@/assets/gallery-bathroom.jpg";
 import galleryBathroom2 from "@/assets/gallery-bathroom2.jpg";
 import galleryBasement from "@/assets/gallery-basement.jpg";
 import galleryLiving from "@/assets/gallery-living.jpg";
-import galleryDrywall from "@/assets/gallery-drywall.jpg";
+import galleryDrywall from "@/assets/gallery-drywall.avif";
 
 const services = [
   {
