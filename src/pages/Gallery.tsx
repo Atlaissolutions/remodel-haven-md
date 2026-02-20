@@ -1,32 +1,30 @@
-import heroKitchen from "@/assets/hero-kitchen.jpg";
-import galleryKitchen2 from "@/assets/gallery-kitchen2.jpg";
-import galleryKitchen3 from "@/assets/gallery-kitchen3.jpg";
-import galleryBathroom from "@/assets/gallery-bathroom.jpg";
-import galleryBathroom2 from "@/assets/gallery-bathroom2.jpg";
-import galleryBasement from "@/assets/gallery-basement.jpg";
-import galleryBasement2 from "@/assets/gallery-basement2.jpg";
-import galleryBasement3 from "@/assets/gallery-basement3.jpg";
-import galleryLiving from "@/assets/gallery-living.jpg";
-import galleryDrywall from "@/assets/gallery-drywall.jpg";
-import galleryRepair from "@/assets/gallery-repair.jpg";
+import galleryShowerMarble from "@/assets/gallery-shower-marble.webp";
+import galleryTubWhite from "@/assets/gallery-tub-white.webp";
+import galleryBathLuxury from "@/assets/gallery-bath-luxury.webp";
+import galleryChandelier from "@/assets/gallery-chandelier.webp";
+import galleryBathModern from "@/assets/gallery-bath-modern.webp";
+import galleryBathDouble from "@/assets/gallery-bath-double.webp";
+import galleryBathVanity from "@/assets/gallery-bath-vanity.webp";
+import galleryEntertainment from "@/assets/gallery-entertainment.webp";
+import galleryDrywallInstall from "@/assets/gallery-drywall-install.webp";
+import galleryBathFreestanding from "@/assets/gallery-bath-freestanding.webp";
 import ContactForm from "@/components/ContactForm";
 import { useState } from "react";
 
 const galleryItems = [
-  { id: 1, src: heroKitchen, category: "Kitchen", title: "Luxury Gold & White Kitchen", featured: true },
-  { id: 2, src: galleryKitchen2, category: "Kitchen", title: "Navy Blue Custom Kitchen" },
-  { id: 3, src: galleryKitchen3, category: "Kitchen", title: "White Shaker Kitchen" },
-  { id: 4, src: galleryBathroom, category: "Bathroom", title: "Spa Retreat Bathroom" },
-  { id: 5, src: galleryBathroom2, category: "Bathroom", title: "Master Bath Renovation" },
-  { id: 6, src: galleryBasement, category: "Basement", title: "Home Theater Buildout" },
-  { id: 7, src: galleryBasement2, category: "Basement", title: "Basement Fitness Studio" },
-  { id: 8, src: galleryBasement3, category: "Basement", title: "Wine Cellar & Lounge" },
-  { id: 9, src: galleryLiving, category: "Full Remodel", title: "Open Concept Living" },
-  { id: 10, src: galleryDrywall, category: "Drywall", title: "Drywall & Trim Work" },
-  { id: 11, src: galleryRepair, category: "Insurance", title: "Insurance Restoration" },
+  { id: 1, src: galleryBathLuxury, category: "Bathroom", title: "Luxury Marble Master Bath", featured: true },
+  { id: 2, src: galleryShowerMarble, category: "Bathroom", title: "Marble Walk-In Shower" },
+  { id: 3, src: galleryBathFreestanding, category: "Bathroom", title: "Freestanding Tub Suite" },
+  { id: 4, src: galleryBathModern, category: "Bathroom", title: "Modern Vanity & LED Mirror" },
+  { id: 5, src: galleryTubWhite, category: "Bathroom", title: "Clean White Tub Surround" },
+  { id: 6, src: galleryBathDouble, category: "Bathroom", title: "Double Vanity Installation" },
+  { id: 7, src: galleryBathVanity, category: "Bathroom", title: "Classic Vanity Remodel" },
+  { id: 8, src: galleryEntertainment, category: "Basement", title: "Entertainment Center Buildout" },
+  { id: 9, src: galleryChandelier, category: "Full Remodel", title: "Crystal Chandelier Install" },
+  { id: 10, src: galleryDrywallInstall, category: "Drywall", title: "Vaulted Ceiling Drywall" },
 ];
 
-const categories = ["All", "Kitchen", "Bathroom", "Basement", "Full Remodel", "Drywall", "Insurance"];
+const categories = ["All", "Bathroom", "Basement", "Full Remodel", "Drywall"];
 
 const Gallery = () => {
   const [activeCategory, setActiveCategory] = useState("All");
