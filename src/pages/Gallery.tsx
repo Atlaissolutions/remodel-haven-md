@@ -1,3 +1,4 @@
+import galleryBg from "@/assets/gallery-bg.jpg";
 import galleryShowerMarble from "@/assets/gallery-shower-marble.webp";
 import galleryTubWhite from "@/assets/gallery-tub-white.webp";
 import galleryBathLuxury from "@/assets/gallery-bath-luxury.webp";
@@ -77,9 +78,10 @@ const Gallery = () => {
   return (
     <div className="min-h-screen pt-20">
       {/* ─── HERO ─── */}
-      <section className="relative py-24 bg-gradient-hero overflow-hidden">
-        <div className="absolute inset-0 opacity-5">
-          <div className="absolute top-0 right-0 w-96 h-96 rounded-full bg-primary blur-3xl" />
+      <section className="relative py-24 overflow-hidden">
+        <div className="absolute inset-0">
+          <img src={galleryBg} alt="" className="w-full h-full object-cover" />
+          <div className="absolute inset-0 bg-background/80 backdrop-blur-sm" />
         </div>
         <div className="relative container mx-auto px-6 text-center">
           <p className="font-body text-xs tracking-widest uppercase text-gold mb-4">Our Portfolio</p>
