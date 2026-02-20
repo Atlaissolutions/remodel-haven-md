@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { Phone, MapPin, Shield, Star, Instagram, Facebook } from "lucide-react";
+import logo from "@/assets/r2r-logo.png";
 
 const serviceAreas = {
   charles: [
@@ -35,10 +36,7 @@ const Footer = () => {
           {/* Brand */}
           <div className="lg:col-span-1">
             <div className="mb-4">
-              <h3 className="font-display text-xl font-bold text-gradient-gold">Ready 2 Remodel</h3>
-              <p className="font-body text-xs tracking-widest uppercase text-muted-foreground mt-1">
-                Luxury Remodeling · Southern Maryland
-              </p>
+              <img src={logo} alt="Ready 2 Remodel" className="h-16 w-auto" />
             </div>
             <p className="font-body text-sm text-muted-foreground leading-relaxed mb-5">
               Transforming homes across Southern Maryland with unmatched craftsmanship and luxury finishes since day one.
