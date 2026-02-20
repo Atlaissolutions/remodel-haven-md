@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Send, CheckCircle } from "lucide-react";
+import { supabase } from "@/integrations/supabase/client";
 
 interface ContactFormProps {
   compact?: boolean;
@@ -30,9 +31,33 @@ const ContactForm = ({ compact = false, className = "" }: ContactFormProps) => {
     setForm({ ...form, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState("");
+
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+    setLoading(true);
+    setError("");
+
+    const { error: dbError } = await supabase
+      .from("contact_submissions")
+      .insert({
+        name: form.name,
+        phone: form.phone,
+        email: form.email || null,
+        service: form.service,
+        description: form.description,
+      });
+
+    if (dbError) {
+      console.error("Submission error:", dbError);
+      setError("Something went wrong. Please try again or call us directly.");
+      setLoading(false);
+      return;
+    }
+
     setSubmitted(true);
+    setLoading(false);
   };
 
   if (submitted) {
@@ -127,12 +152,17 @@ const ContactForm = ({ compact = false, className = "" }: ContactFormProps) => {
         />
       </div>
 
+      {error && (
+        <p className="text-sm text-destructive text-center font-body">{error}</p>
+      )}
+
       <button
         type="submit"
-        className="w-full flex items-center justify-center gap-3 bg-gradient-primary text-primary-foreground py-4 rounded font-body text-sm font-semibold tracking-widest uppercase shadow-luxury hover:opacity-90 active:scale-[0.98] transition-all duration-200"
+        disabled={loading}
+        className="w-full flex items-center justify-center gap-3 bg-gradient-primary text-primary-foreground py-4 rounded font-body text-sm font-semibold tracking-widest uppercase shadow-luxury hover:opacity-90 active:scale-[0.98] transition-all duration-200 disabled:opacity-50"
       >
         <Send size={16} />
-        Send My Inquiry
+        {loading ? "Sending..." : "Send My Inquiry"}
       </button>
       <p className="text-xs text-muted-foreground text-center font-body">
         We'll reach out within 24 hours. No spam, ever.
