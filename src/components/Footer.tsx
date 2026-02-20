@@ -101,14 +101,14 @@ const Footer = () => {
             <h4 className="font-display text-base font-semibold text-foreground mb-4">Contact Us</h4>
             <div className="gold-divider w-8 mb-4" />
             <div className="space-y-4">
-              <a href="tel:3015550100" className="flex items-center gap-3 group">
+              <a href="tel:2402996161" className="flex items-center gap-3 group">
                 <div className="p-2 rounded bg-gradient-primary shadow-luxury shrink-0">
                   <Phone size={14} className="text-primary-foreground" />
                 </div>
                 <div>
                   <p className="font-body text-xs text-muted-foreground uppercase tracking-wider">Call / Text</p>
                   <p className="font-body text-sm text-foreground group-hover:text-gold transition-colors font-medium">
-                    (301) 555-0100
+                    (240) 299-6161
                   </p>
                 </div>
               </a>

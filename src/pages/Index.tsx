@@ -73,7 +73,7 @@ const Index = () => {
 
             <div className="flex flex-wrap gap-4">
               <a
-                href="tel:3015550100"
+                href="tel:2402996161"
                 className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-primary rounded text-primary-foreground font-body font-semibold tracking-wider uppercase text-sm shadow-luxury hover:opacity-90 transition-opacity"
               >
                 Call for Free Estimate

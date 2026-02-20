@@ -74,7 +74,7 @@ const ContactForm = ({ compact = false, className = "" }: ContactFormProps) => {
             required
             value={form.phone}
             onChange={handleChange}
-            placeholder="(301) 555-0100"
+            placeholder="(240) 299-6161"
             className="w-full bg-muted border border-border rounded px-4 py-3 text-sm font-body text-foreground placeholder:text-muted-foreground focus:outline-none focus:border-primary transition-colors"
           />
         </div>
