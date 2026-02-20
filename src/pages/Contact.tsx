@@ -1,14 +1,15 @@
 import { Phone, MapPin, Shield, Clock, Star, CheckCircle } from "lucide-react";
 import ContactForm from "@/components/ContactForm";
+import contactBg from "@/assets/contact-bg.webp";
 
 const Contact = () => {
   return (
     <div className="min-h-screen pt-20">
       {/* ─── HERO ─── */}
-      <section className="relative py-24 bg-gradient-hero overflow-hidden">
-        <div className="absolute inset-0 opacity-5">
-          <div className="absolute bottom-0 left-0 w-96 h-96 rounded-full bg-luxury-blue blur-3xl" />
-          <div className="absolute top-0 right-0 w-96 h-96 rounded-full bg-luxury-green blur-3xl" />
+      <section className="relative py-24 overflow-hidden">
+        <div className="absolute inset-0">
+          <img src={contactBg} alt="" className="w-full h-full object-cover" />
+          <div className="absolute inset-0 bg-background/80 backdrop-blur-sm" />
         </div>
         <div className="relative container mx-auto px-6 text-center">
           <p className="font-body text-xs tracking-widest uppercase text-gold mb-4">Contact Us</p>
