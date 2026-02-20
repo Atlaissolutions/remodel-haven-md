@@ -36,9 +36,7 @@ const Footer = () => {
           {/* Brand */}
           <div className="lg:col-span-1">
             <div className="mb-4">
-              <div className="bg-black rounded-lg p-1 inline-block">
-                <img src={logo} alt="Ready 2 Remodel" className="h-16 w-auto" />
-              </div>
+              <img src={logo} alt="Ready 2 Remodel" className="h-16 w-auto" />
             </div>
             <p className="font-body text-sm text-muted-foreground leading-relaxed mb-5">
               Transforming homes across Southern Maryland with unmatched craftsmanship and luxury finishes since day one.
