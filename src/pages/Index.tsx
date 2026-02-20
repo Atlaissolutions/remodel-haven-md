@@ -4,7 +4,7 @@ import heroKitchen from "@/assets/hero-kitchen.jpg";
 import GoogleReviews from "@/components/GoogleReviews";
 import ContactForm from "@/components/ContactForm";
 import galleryKitchen2 from "@/assets/gallery-kitchen2.avif";
-import galleryBathroom from "@/assets/gallery-bathroom.jpg";
+import galleryBathroom from "@/assets/gallery-bathroom.webp";
 import galleryBasement from "@/assets/gallery-basement.jpg";
 
 const services = [
