@@ -42,7 +42,7 @@ const Navbar = () => {
       <div className="container mx-auto px-6">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <Link to="/" className="flex items-center group">
+          <Link to="/" className="flex items-center group bg-black rounded-lg px-3 py-1">
             <img src={logo} alt="Ready 2 Remodel" className="h-14 w-auto" />
           </Link>
 
