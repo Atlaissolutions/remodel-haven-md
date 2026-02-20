@@ -47,6 +47,7 @@ const services = [
     features: ["New installation", "Patch & repair", "Texture matching", "Skim coating"],
     image: galleryDrywall,
     color: "text-primary-light",
+    imagePosition: "object-bottom",
   },
   {
     icon: FileText,
@@ -125,7 +126,7 @@ const Services = () => {
                     <img
                       src={service.image}
                       alt={service.title}
-                      className="w-full aspect-[16/10] object-cover rounded-xl shadow-luxury border border-border"
+                      className={`w-full aspect-[16/10] object-cover rounded-xl shadow-luxury border border-border ${service.imagePosition || ''}`}
                     />
                   </div>
                   <div className={`${isEven ? "lg:order-2" : "lg:order-1"}`}>
