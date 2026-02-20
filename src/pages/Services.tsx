@@ -1,4 +1,5 @@
 import { Shield, CheckCircle, MapPin, Wrench, Home, Layers, Droplets, FileText, PaintBucket } from "lucide-react";
+import servicesBg from "@/assets/services-bg.jpg";
 import ContactForm from "@/components/ContactForm";
 import galleryKitchen2 from "@/assets/gallery-kitchen2.jpg";
 import galleryBathroom from "@/assets/gallery-bathroom.jpg";
@@ -68,10 +69,10 @@ const Services = () => {
   return (
     <div className="min-h-screen pt-20">
       {/* ─── HERO ─── */}
-      <section className="relative py-24 bg-gradient-hero overflow-hidden">
-        <div className="absolute inset-0 opacity-5">
-          <div className="absolute top-10 left-10 w-96 h-96 rounded-full bg-primary blur-3xl" />
-          <div className="absolute bottom-10 right-10 w-96 h-96 rounded-full bg-luxury-blue blur-3xl" />
+      <section className="relative py-24 overflow-hidden">
+        <div className="absolute inset-0">
+          <img src={servicesBg} alt="" className="w-full h-full object-cover" />
+          <div className="absolute inset-0 bg-background/80 backdrop-blur-sm" />
         </div>
         <div className="relative container mx-auto px-6 text-center">
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-gold/30 bg-gold/10 mb-6">
