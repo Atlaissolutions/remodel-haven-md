@@ -18,6 +18,16 @@ import galleryInsurancePrep from "@/assets/gallery-insurance-prep.webp";
 import galleryRemodelFraming from "@/assets/gallery-remodel-framing.webp";
 import galleryBathJacuzzi from "@/assets/gallery-bath-jacuzzi.webp";
 import galleryBathIndustrial from "@/assets/gallery-bath-industrial.webp";
+import galleryKitchenNavy from "@/assets/gallery-kitchen-navy.jpg";
+import galleryKitchenModern from "@/assets/gallery-kitchen-modern.avif";
+import galleryKitchenClassic from "@/assets/gallery-kitchen-classic.jpeg";
+import galleryKitchenHerringbone from "@/assets/gallery-kitchen-herringbone.jpg";
+import galleryKitchenGreen from "@/assets/gallery-kitchen-green.jpg";
+import galleryKitchenGray from "@/assets/gallery-kitchen-gray.jpg";
+import galleryBasementOpen from "@/assets/gallery-basement-open.jpg";
+import galleryExterior from "@/assets/gallery-exterior.jpg";
+import galleryKitchenMarble from "@/assets/gallery-kitchen-marble.jpg";
+import galleryKitchenBlue from "@/assets/gallery-kitchen-blue.jpg";
 import ContactForm from "@/components/ContactForm";
 import { useState } from "react";
 
@@ -33,15 +43,25 @@ const galleryItems = [
   { id: 9, src: galleryBathDual, category: "Bathroom", title: "Dual Vanity Walk-In Shower" },
   { id: 10, src: galleryBathJacuzzi, category: "Bathroom", title: "Jacuzzi Tub & Stone Wall" },
   { id: 11, src: galleryBathIndustrial, category: "Bathroom", title: "Industrial Chic Bathroom" },
-  { id: 12, src: galleryEntertainment, category: "Basement", title: "Entertainment Center Buildout" },
-  { id: 13, src: galleryTheater, category: "Basement", title: "Home Theater Room" },
-  { id: 14, src: galleryBasementBar, category: "Basement", title: "Custom Bar & Lounge" },
-  { id: 15, src: galleryKitchenWhite, category: "Kitchen", title: "White Shaker Kitchen" },
-  { id: 16, src: galleryChandelier, category: "Full Remodel", title: "Crystal Chandelier Install" },
-  { id: 17, src: galleryRemodelFraming, category: "Full Remodel", title: "Full Framing & Demo" },
-  { id: 18, src: galleryDrywallInstall, category: "Drywall", title: "Vaulted Ceiling Drywall" },
-  { id: 19, src: galleryDrywallCeiling, category: "Drywall", title: "Ceiling Drywall Installation" },
-  { id: 20, src: galleryInsurancePrep, category: "Insurance", title: "Insurance Damage Prep" },
+  { id: 12, src: galleryKitchenNavy, category: "Kitchen", title: "Navy Blue Island Kitchen" },
+  { id: 13, src: galleryKitchenModern, category: "Kitchen", title: "Modern Open Kitchen" },
+  { id: 14, src: galleryKitchenClassic, category: "Kitchen", title: "Classic White Cabinetry" },
+  { id: 15, src: galleryKitchenHerringbone, category: "Kitchen", title: "Herringbone Backsplash Kitchen" },
+  { id: 16, src: galleryKitchenGreen, category: "Kitchen", title: "Green Shaker Kitchen" },
+  { id: 17, src: galleryKitchenGray, category: "Kitchen", title: "Gray Modern Kitchen" },
+  { id: 18, src: galleryKitchenWhite, category: "Kitchen", title: "White Shaker Kitchen" },
+  { id: 19, src: galleryKitchenMarble, category: "Kitchen", title: "Marble Waterfall Island" },
+  { id: 20, src: galleryKitchenBlue, category: "Kitchen", title: "Two-Tone Blue Kitchen" },
+  { id: 21, src: galleryEntertainment, category: "Basement", title: "Entertainment Center Buildout" },
+  { id: 22, src: galleryTheater, category: "Basement", title: "Home Theater Room" },
+  { id: 23, src: galleryBasementBar, category: "Basement", title: "Custom Bar & Lounge" },
+  { id: 24, src: galleryBasementOpen, category: "Basement", title: "Open Concept Basement" },
+  { id: 25, src: galleryExterior, category: "Full Remodel", title: "Full Exterior Renovation" },
+  { id: 26, src: galleryChandelier, category: "Full Remodel", title: "Crystal Chandelier Install" },
+  { id: 27, src: galleryRemodelFraming, category: "Full Remodel", title: "Full Framing & Demo" },
+  { id: 28, src: galleryDrywallInstall, category: "Drywall", title: "Vaulted Ceiling Drywall" },
+  { id: 29, src: galleryDrywallCeiling, category: "Drywall", title: "Ceiling Drywall Installation" },
+  { id: 30, src: galleryInsurancePrep, category: "Insurance", title: "Insurance Damage Prep" },
 ];
 
 const categories = ["All", "Bathroom", "Basement", "Kitchen", "Full Remodel", "Drywall", "Insurance"];
