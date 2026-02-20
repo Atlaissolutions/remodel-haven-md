@@ -8,6 +8,16 @@ import galleryBathVanity from "@/assets/gallery-bath-vanity.webp";
 import galleryEntertainment from "@/assets/gallery-entertainment.webp";
 import galleryDrywallInstall from "@/assets/gallery-drywall-install.webp";
 import galleryBathFreestanding from "@/assets/gallery-bath-freestanding.webp";
+import galleryTheater from "@/assets/gallery-theater.webp";
+import galleryBathStone from "@/assets/gallery-bath-stone.webp";
+import galleryBathDual from "@/assets/gallery-bath-dual.webp";
+import galleryDrywallCeiling from "@/assets/gallery-drywall-ceiling.webp";
+import galleryKitchenWhite from "@/assets/gallery-kitchen-white.webp";
+import galleryBasementBar from "@/assets/gallery-basement-bar.webp";
+import galleryInsurancePrep from "@/assets/gallery-insurance-prep.webp";
+import galleryRemodelFraming from "@/assets/gallery-remodel-framing.webp";
+import galleryBathJacuzzi from "@/assets/gallery-bath-jacuzzi.webp";
+import galleryBathIndustrial from "@/assets/gallery-bath-industrial.webp";
 import ContactForm from "@/components/ContactForm";
 import { useState } from "react";
 
@@ -19,12 +29,22 @@ const galleryItems = [
   { id: 5, src: galleryTubWhite, category: "Bathroom", title: "Clean White Tub Surround" },
   { id: 6, src: galleryBathDouble, category: "Bathroom", title: "Double Vanity Installation" },
   { id: 7, src: galleryBathVanity, category: "Bathroom", title: "Classic Vanity Remodel" },
-  { id: 8, src: galleryEntertainment, category: "Basement", title: "Entertainment Center Buildout" },
-  { id: 9, src: galleryChandelier, category: "Full Remodel", title: "Crystal Chandelier Install" },
-  { id: 10, src: galleryDrywallInstall, category: "Drywall", title: "Vaulted Ceiling Drywall" },
+  { id: 8, src: galleryBathStone, category: "Bathroom", title: "Stone Accent Spa Bath" },
+  { id: 9, src: galleryBathDual, category: "Bathroom", title: "Dual Vanity Walk-In Shower" },
+  { id: 10, src: galleryBathJacuzzi, category: "Bathroom", title: "Jacuzzi Tub & Stone Wall" },
+  { id: 11, src: galleryBathIndustrial, category: "Bathroom", title: "Industrial Chic Bathroom" },
+  { id: 12, src: galleryEntertainment, category: "Basement", title: "Entertainment Center Buildout" },
+  { id: 13, src: galleryTheater, category: "Basement", title: "Home Theater Room" },
+  { id: 14, src: galleryBasementBar, category: "Basement", title: "Custom Bar & Lounge" },
+  { id: 15, src: galleryKitchenWhite, category: "Kitchen", title: "White Shaker Kitchen" },
+  { id: 16, src: galleryChandelier, category: "Full Remodel", title: "Crystal Chandelier Install" },
+  { id: 17, src: galleryRemodelFraming, category: "Full Remodel", title: "Full Framing & Demo" },
+  { id: 18, src: galleryDrywallInstall, category: "Drywall", title: "Vaulted Ceiling Drywall" },
+  { id: 19, src: galleryDrywallCeiling, category: "Drywall", title: "Ceiling Drywall Installation" },
+  { id: 20, src: galleryInsurancePrep, category: "Insurance", title: "Insurance Damage Prep" },
 ];
 
-const categories = ["All", "Bathroom", "Basement", "Full Remodel", "Drywall"];
+const categories = ["All", "Bathroom", "Basement", "Kitchen", "Full Remodel", "Drywall", "Insurance"];
 
 const Gallery = () => {
   const [activeCategory, setActiveCategory] = useState("All");
