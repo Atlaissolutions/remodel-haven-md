@@ -35,7 +35,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
           {/* Brand */}
           <div className="lg:col-span-1">
-            <div className="mb-4">
+            <div className="mb-4 bg-black rounded-lg px-3 py-2 inline-block">
               <img src={logo} alt="Ready 2 Remodel" className="h-16 w-auto" />
             </div>
             <p className="font-body text-sm text-muted-foreground leading-relaxed mb-5">
