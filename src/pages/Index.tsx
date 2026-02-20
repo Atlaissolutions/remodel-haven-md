@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { Shield, Award, CheckCircle, ChevronRight, Star } from "lucide-react";
-import heroKitchen from "@/assets/hero-kitchen.avif";
+import heroKitchen from "@/assets/hero-kitchen.jpg";
 import GoogleReviews from "@/components/GoogleReviews";
 import ContactForm from "@/components/ContactForm";
 import galleryKitchen2 from "@/assets/gallery-kitchen2.jpg";
