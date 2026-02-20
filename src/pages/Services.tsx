@@ -118,6 +118,7 @@ const Services = () => {
               return (
                 <div
                   key={service.title}
+                  id={service.title.toLowerCase().replace(/\s+/g, '-')}
                   className={`grid grid-cols-1 lg:grid-cols-2 gap-12 items-center ${isEven ? "" : "lg:flex-row-reverse"}`}
                 >
                   <div className={`${isEven ? "lg:order-1" : "lg:order-2"}`}>

@@ -3,7 +3,7 @@ import { Shield, Award, CheckCircle, ChevronRight, Star } from "lucide-react";
 import heroKitchen from "@/assets/hero-kitchen.jpg";
 import GoogleReviews from "@/components/GoogleReviews";
 import ContactForm from "@/components/ContactForm";
-import galleryKitchen2 from "@/assets/gallery-kitchen2.jpg";
+import galleryKitchen2 from "@/assets/gallery-kitchen2.avif";
 import galleryBathroom from "@/assets/gallery-bathroom.jpg";
 import galleryBasement from "@/assets/gallery-basement.jpg";
 
@@ -175,7 +175,7 @@ const Index = () => {
                   <h3 className="font-display text-xl font-bold text-foreground mb-2">{service.title}</h3>
                   <p className="font-body text-sm text-foreground/70 leading-relaxed">{service.desc}</p>
                   <Link
-                    to="/services"
+                    to="/services#kitchen-remodeling"
                     className="inline-flex items-center gap-1 mt-4 text-gold font-body text-xs font-semibold tracking-widest uppercase hover:gap-2 transition-all"
                   >
                     Learn More <ChevronRight size={14} />
