@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X, ChevronDown } from "lucide-react";
+import logo from "@/assets/r2r-logo.png";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -41,13 +42,8 @@ const Navbar = () => {
       <div className="container mx-auto px-6">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <Link to="/" className="flex flex-col leading-none group">
-            <span className="font-display text-xl font-bold text-gradient-gold tracking-wider">
-              Ready 2 Remodel
-            </span>
-            <span className="text-[10px] font-body tracking-[0.25em] text-muted-foreground uppercase mt-0.5">
-              Luxury Remodeling · Southern Maryland
-            </span>
+          <Link to="/" className="flex items-center group">
+            <img src={logo} alt="Ready 2 Remodel" className="h-14 w-auto" />
           </Link>
 
           {/* Desktop Nav */}
