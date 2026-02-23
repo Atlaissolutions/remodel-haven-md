@@ -57,7 +57,7 @@ const Index = () => {
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-gold/30 bg-gold/10 mb-8">
               <Shield size={14} className="text-luxury-green" />
               <span className="font-body text-xs font-semibold tracking-widest uppercase text-gold">
-                Licensed & Insured · Southern Maryland
+                Licensed & Insured · Maryland Contractor
               </span>
             </div>
 
