@@ -5,8 +5,8 @@ import galleryKitchen2 from "@/assets/gallery-kitchen2.jpg";
 import galleryBathroom from "@/assets/gallery-bathroom.jpg";
 import galleryBathroom2 from "@/assets/gallery-bathroom2.webp";
 import galleryBasement from "@/assets/gallery-basement.jpg";
-import galleryRemodelCrew from "@/assets/gallery-remodel-crew.webp";
-import galleryDrywall from "@/assets/gallery-drywall.avif";
+import galleryLiving from "@/assets/gallery-living.jpg";
+import galleryDrywall from "@/assets/gallery-remodel-crew.webp";
 
 const services = [
   {
@@ -14,7 +14,7 @@ const services = [
     title: "Full Home Remodels",
     desc: "Complete interior renovations from floor to ceiling. We manage every phase — demolition, framing, electrical coordination, drywall, flooring, trim, and final finishes — as a single unified project.",
     features: ["Project management", "Structural work", "All trades coordinated", "Final punch-out walkthrough"],
-    image: galleryRemodelCrew,
+    image: galleryLiving,
     color: "text-primary",
   },
   {
