@@ -182,7 +182,7 @@ const GoogleReviews = () => {
 
         <div className="text-center mt-10">
           <a
-            href="https://maps.google.com"
+            href="https://www.google.com/maps/search/Ready+2+Remodel+Maryland"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-8 py-3 border border-gold/40 rounded text-gold hover:bg-gold/10 font-body text-sm tracking-widest uppercase transition-all duration-200">
