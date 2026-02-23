@@ -65,15 +65,10 @@ const galleryItems = [
   { id: 30, src: galleryInsurancePrep, category: "Insurance", title: "Insurance Damage Prep" },
 ];
 
-const categories = ["All", "Bathroom", "Basement", "Kitchen", "Full Remodel", "Drywall", "Insurance"];
+// categories removed
 
 const Gallery = () => {
-  const [activeCategory, setActiveCategory] = useState("All");
   const [lightbox, setLightbox] = useState<null | typeof galleryItems[0]>(null);
-
-  const filtered = activeCategory === "All"
-    ? galleryItems
-    : galleryItems.filter((item) => item.category === activeCategory);
 
   return (
     <div className="min-h-screen pt-20">
@@ -95,32 +90,12 @@ const Gallery = () => {
         </div>
       </section>
 
-      {/* ─── FILTER TABS ─── */}
-      <section className="sticky top-20 z-30 bg-background/95 backdrop-blur-md border-b border-border py-4">
-        <div className="container mx-auto px-6">
-          <div className="flex flex-wrap gap-2 justify-center">
-            {categories.map((cat) => (
-              <button
-                key={cat}
-                onClick={() => setActiveCategory(cat)}
-                className={`px-5 py-2 rounded-full font-body text-xs font-semibold tracking-widest uppercase transition-all duration-200 ${
-                  activeCategory === cat
-                    ? "bg-gradient-primary text-primary-foreground shadow-luxury"
-                    : "bg-muted text-muted-foreground hover:text-gold hover:border-gold/40 border border-border"
-                }`}
-              >
-                {cat}
-              </button>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* ─── GALLERY GRID ─── */}
       <section className="py-14 bg-background">
         <div className="container mx-auto px-6">
           <div className="columns-1 sm:columns-2 lg:columns-3 gap-4 space-y-4">
-            {filtered.map((item) => (
+            {galleryItems.map((item) => (
               <div
                 key={item.id}
                 onClick={() => setLightbox(item)}
@@ -148,11 +123,6 @@ const Gallery = () => {
             ))}
           </div>
 
-          {filtered.length === 0 && (
-            <div className="text-center py-20">
-              <p className="font-body text-muted-foreground">No items in this category yet.</p>
-            </div>
-          )}
         </div>
       </section>
 
