@@ -19,11 +19,8 @@ serve(async (req) => {
       throw new Error("Missing Google Places API key or Place ID");
     }
 
-    // Alternate sort order weekly to show different reviews
-    const weekNumber = Math.floor(Date.now() / (7 * 24 * 60 * 60 * 1000));
-    const sortOrder = weekNumber % 2 === 0 ? "NEWEST" : "MOST_RELEVANT";
-
-    const url = `https://places.googleapis.com/v1/places/${placeId}?fields=reviews,rating,userRatingCount,displayName&reviews_sort=${sortOrder}&key=${apiKey}`;
+    // Use Places API (New) to get place details with reviews
+    const url = `https://places.googleapis.com/v1/places/${placeId}?fields=reviews,rating,userRatingCount,displayName&key=${apiKey}`;
 
     const response = await fetch(url, {
       headers: {

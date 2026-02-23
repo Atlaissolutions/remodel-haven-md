@@ -77,7 +77,15 @@ const GoogleReviews = () => {
         if (error) throw error;
 
         if (data?.reviews?.length > 0) {
-          setReviews(data.reviews);
+          // Rotate which reviews are shown based on the current week
+          const weekNumber = Math.floor(Date.now() / (7 * 24 * 60 * 60 * 1000));
+          const allReviews = data.reviews as Review[];
+          const offset = weekNumber % allReviews.length;
+          const rotated = [
+            ...allReviews.slice(offset),
+            ...allReviews.slice(0, offset),
+          ];
+          setReviews(rotated);
           setOverallRating(data.rating || 5);
           setTotalReviews(data.totalReviews || 0);
         }
