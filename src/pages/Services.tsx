@@ -98,7 +98,7 @@ const Services = () => {
             {[
               { icon: Shield, text: "Licensed Maryland Contractor", color: "text-luxury-green" },
               { icon: CheckCircle, text: "Fully Insured & Bonded", color: "text-gold" },
-              { icon: PaintBucket, text: "10+ Years of Experience", color: "text-luxury-blue-light" },
+              { icon: PaintBucket, text: "Over a Decade of Experience", color: "text-luxury-blue-light" },
               { icon: MapPin, text: "Based Out of Southern MD", color: "text-primary-light" },
             ].map(({ icon: Icon, text, color }) => (
               <div key={text} className="flex items-center gap-2">
