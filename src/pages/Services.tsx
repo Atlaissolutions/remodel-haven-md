@@ -48,7 +48,7 @@ const services = [
     features: ["New installation", "Patch & repair", "Texture matching", "Skim coating"],
     image: galleryDrywall,
     color: "text-primary-light",
-    imagePosition: "object-bottom",
+    imagePosition: "object-[center_35%]",
   },
   {
     icon: FileText,
