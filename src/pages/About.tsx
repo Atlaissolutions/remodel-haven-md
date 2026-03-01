@@ -35,11 +35,9 @@ const About = () => {
 
             </div>
             <h3 className="font-display text-2xl font-bold text-foreground mb-2">
+              Ernest Dickens IV
             </h3>
-            <p className="font-body text-sm tracking-widest uppercase text-gold mb-4">Founder & Owner</p>
-            <p className="font-body text-muted-foreground max-w-xl mx-auto leading-relaxed">
-              A brief bio or message from the owner goes here.
-            </p>
+            <p className="font-body text-sm tracking-widest uppercase text-gold mb-4">Founder & CEO</p>
           </div>
         </div>
       </section>
