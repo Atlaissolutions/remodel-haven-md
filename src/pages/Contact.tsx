@@ -8,7 +8,7 @@ const Contact = () => {
       {/* ─── HERO ─── */}
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0">
-          <img src={contactBg} alt="" className="w-full h-full object-cover" />
+          <img src={contactBg} alt="" className="w-full h-full object-cover object-bottom" />
           <div className="absolute inset-0 bg-background/80 backdrop-blur-sm" />
         </div>
         <div className="relative container mx-auto px-6 text-center">
