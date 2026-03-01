@@ -70,7 +70,7 @@ const About = () => {
             <h2 className="font-display text-3xl font-bold text-foreground mb-4">Our Commitment to You</h2>
             <div className="gold-divider w-16 mx-auto" />
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
             {[
             { title: "Transparent Pricing", desc: "No hidden fees, no surprise charges. You'll know exactly what you're getting and what it costs — before a single nail is driven.", icon: "💎" },
             { title: "White-Glove Service", desc: "From first contact to final walkthrough, we treat your home with the respect it deserves. Clean job sites, professional conduct, on-time delivery.", icon: "🤝" },
