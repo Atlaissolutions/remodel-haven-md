@@ -39,7 +39,7 @@ const galleryItems = [
   { id: 9, src: galleryBathDual, category: "Bathroom", title: "Dual Vanity Walk-In Shower" },
   { id: 10, src: galleryBathJacuzzi, category: "Bathroom", title: "Jacuzzi Tub & Stone Wall" },
   { id: 11, src: galleryBathIndustrial, category: "Bathroom", title: "Industrial Chic Bathroom" },
-  { id: 12, src: galleryKitchenModern, category: "Kitchen", title: "Modern Open Kitchen" },
+  
   { id: 13, src: galleryKitchenClassic, category: "Kitchen", title: "Classic White Cabinetry" },
   { id: 14, src: galleryKitchenWhite, category: "Kitchen", title: "White Shaker Kitchen" },
   { id: 15, src: galleryEntertainment, category: "Basement", title: "Entertainment Center Buildout" },
