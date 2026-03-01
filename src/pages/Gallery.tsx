@@ -60,6 +60,16 @@ const galleryItems = [
   { id: 28, src: galleryDrywallInstall, category: "Drywall", title: "Vaulted Ceiling Drywall" },
   { id: 29, src: galleryDrywallCeiling, category: "Drywall", title: "Ceiling Drywall Installation" },
   { id: 30, src: galleryInsurancePrep, category: "Insurance", title: "Insurance Damage Prep" },
+  { id: 31, src: galleryDrywallRoom, category: "Drywall", title: "Drywall Room Finish" },
+  { id: 32, src: galleryBasementFinished, category: "Basement", title: "Finished Basement Space" },
+  { id: 33, src: galleryBathBlackFixtures, category: "Bathroom", title: "Black Fixture Bath Remodel" },
+  { id: 34, src: galleryBathBlackVanity, category: "Bathroom", title: "Double Vanity Black Hardware" },
+  { id: 35, src: galleryDeckOutdoor, category: "Full Remodel", title: "Outdoor Deck Build" },
+  { id: 36, src: galleryBathGoldVanity, category: "Bathroom", title: "Gray Vanity & Gold Fixtures" },
+  { id: 37, src: galleryBathGoldMirror, category: "Bathroom", title: "LED Mirror & Gold Accents" },
+  { id: 38, src: galleryBathMarbleTub, category: "Bathroom", title: "Marble Tub & Glass Shower" },
+  { id: 39, src: galleryShowerGoldRain, category: "Bathroom", title: "Gold Rain Shower Head" },
+  { id: 40, src: galleryBathFullGold, category: "Bathroom", title: "Full Gold Accent Master Bath" },
 ];
 
 // categories removed
