@@ -51,7 +51,7 @@ const About = () => {
               { icon: Heart, text: "Southern Maryland Based & Owned", color: "text-primary-light" },
               { icon: Users, text: "500+ Happy Homeowners", color: "text-luxury-blue-light" },
               { icon: Star, text: "5.0 Google Rating", color: "text-gold" },
-              { icon: CheckCircle, text: "Free, No-Obligation Estimates", color: "text-luxury-green" }].
+              { icon: CheckCircle, text: "Black Owned", color: "text-luxury-green" }].
               map(({ icon: Icon, text, color }) =>
               <div key={text} className="flex items-center gap-4 luxury-card rounded-xl p-4">
                   <Icon size={20} className={`${color} shrink-0`} />
