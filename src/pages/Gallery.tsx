@@ -20,7 +20,7 @@ import galleryRemodelFraming from "@/assets/gallery-remodel-framing.webp";
 import galleryBathJacuzzi from "@/assets/gallery-bath-jacuzzi.webp";
 import galleryBathIndustrial from "@/assets/gallery-bath-industrial.webp";
 
-import galleryKitchenModern from "@/assets/gallery-kitchen-modern.avif";
+
 import galleryKitchenClassic from "@/assets/gallery-kitchen-classic.jpeg";
 
 
