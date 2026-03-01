@@ -40,7 +40,7 @@ const galleryItems = [
   { id: 10, src: galleryBathJacuzzi, category: "Bathroom", title: "Jacuzzi Tub & Stone Wall" },
   { id: 11, src: galleryBathIndustrial, category: "Bathroom", title: "Industrial Chic Bathroom" },
   
-  { id: 13, src: galleryKitchenClassic, category: "Kitchen", title: "Classic White Cabinetry" },
+  
   { id: 14, src: galleryKitchenWhite, category: "Kitchen", title: "White Shaker Kitchen" },
   { id: 15, src: galleryEntertainment, category: "Basement", title: "Entertainment Center Buildout" },
   { id: 16, src: galleryTheater, category: "Basement", title: "Home Theater Room" },
