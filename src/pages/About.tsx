@@ -74,7 +74,7 @@ const About = () => {
             {[
             { title: "Transparent Pricing", desc: "No hidden fees, no surprise charges. You'll know exactly what you're getting and what it costs — before a single nail is driven.", icon: "💎" },
             { title: "White-Glove Service", desc: "From first contact to final walkthrough, we treat your home with the respect it deserves. Clean job sites, professional conduct, on-time delivery.", icon: "🤝" },
-            { title: "Quality That Lasts", desc: "We use premium materials and proven techniques so your remodel looks as good in 20 years as it does on day one.", icon: "⭐" }].
+            ].
             map((v) =>
             <div key={v.title} className="luxury-card rounded-xl p-8 text-center hover:-translate-y-1 transition-transform duration-300">
                 <div className="text-4xl mb-4">{v.icon}</div>
