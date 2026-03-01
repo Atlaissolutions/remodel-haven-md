@@ -35,7 +35,7 @@ const About = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div className="space-y-5">
               <p className="font-body text-muted-foreground leading-relaxed">
-                Ready 2 Remodel was founded with a single mission: to bring luxury-level craftsmanship to homeowners across Southern Maryland at prices that make sense. We believe your home deserves the best — and we deliver it.
+                Ready 2 Remodel was founded with a single mission: to bring luxury-level craftsmanship to homeowners across Maryland at prices that make sense. We believe your home deserves the best — and we deliver it.
               </p>
               <p className="font-body text-muted-foreground leading-relaxed">
                 Based in Southern Maryland, we specialize in interior remodeling — particularly kitchens, bathrooms, and basement buildouts — with deep expertise in drywall finishing and insurance restoration work.
@@ -46,18 +46,18 @@ const About = () => {
             </div>
             <div className="space-y-4">
               {[
-                { icon: Shield, text: "Licensed Maryland Contractor", color: "text-luxury-green" },
-                { icon: Award, text: "Fully Insured & Bonded", color: "text-gold" },
-                { icon: Heart, text: "Southern Maryland Based & Owned", color: "text-primary-light" },
-                { icon: Users, text: "500+ Happy Homeowners", color: "text-luxury-blue-light" },
-                { icon: Star, text: "5.0 Google Rating", color: "text-gold" },
-                { icon: CheckCircle, text: "Free, No-Obligation Estimates", color: "text-luxury-green" },
-              ].map(({ icon: Icon, text, color }) => (
-                <div key={text} className="flex items-center gap-4 luxury-card rounded-xl p-4">
+              { icon: Shield, text: "Licensed Maryland Contractor", color: "text-luxury-green" },
+              { icon: Award, text: "Fully Insured & Bonded", color: "text-gold" },
+              { icon: Heart, text: "Southern Maryland Based & Owned", color: "text-primary-light" },
+              { icon: Users, text: "500+ Happy Homeowners", color: "text-luxury-blue-light" },
+              { icon: Star, text: "5.0 Google Rating", color: "text-gold" },
+              { icon: CheckCircle, text: "Free, No-Obligation Estimates", color: "text-luxury-green" }].
+              map(({ icon: Icon, text, color }) =>
+              <div key={text} className="flex items-center gap-4 luxury-card rounded-xl p-4">
                   <Icon size={20} className={`${color} shrink-0`} />
                   <span className="font-body text-sm text-foreground/85 font-medium">{text}</span>
                 </div>
-              ))}
+              )}
             </div>
           </div>
         </div>
@@ -72,16 +72,16 @@ const About = () => {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
             {[
-              { title: "Transparent Pricing", desc: "No hidden fees, no surprise charges. You'll know exactly what you're getting and what it costs — before a single nail is driven.", icon: "💎" },
-              { title: "White-Glove Service", desc: "From first contact to final walkthrough, we treat your home with the respect it deserves. Clean job sites, professional conduct, on-time delivery.", icon: "🤝" },
-              { title: "Quality That Lasts", desc: "We use premium materials and proven techniques so your remodel looks as good in 20 years as it does on day one.", icon: "⭐" },
-            ].map((v) => (
-              <div key={v.title} className="luxury-card rounded-xl p-8 text-center hover:-translate-y-1 transition-transform duration-300">
+            { title: "Transparent Pricing", desc: "No hidden fees, no surprise charges. You'll know exactly what you're getting and what it costs — before a single nail is driven.", icon: "💎" },
+            { title: "White-Glove Service", desc: "From first contact to final walkthrough, we treat your home with the respect it deserves. Clean job sites, professional conduct, on-time delivery.", icon: "🤝" },
+            { title: "Quality That Lasts", desc: "We use premium materials and proven techniques so your remodel looks as good in 20 years as it does on day one.", icon: "⭐" }].
+            map((v) =>
+            <div key={v.title} className="luxury-card rounded-xl p-8 text-center hover:-translate-y-1 transition-transform duration-300">
                 <div className="text-4xl mb-4">{v.icon}</div>
                 <h3 className="font-display text-xl font-semibold text-foreground mb-3">{v.title}</h3>
                 <p className="font-body text-sm text-muted-foreground leading-relaxed">{v.desc}</p>
               </div>
-            ))}
+            )}
           </div>
         </div>
       </section>
@@ -99,8 +99,8 @@ const About = () => {
           </div>
         </div>
       </section>
-    </div>
-  );
+    </div>);
+
 };
 
 export default About;
