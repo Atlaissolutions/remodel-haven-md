@@ -25,7 +25,7 @@ const Footer = () => {
               Proudly Serving:
             </span>
             <span className="font-body text-xs opacity-90">
-              All of Charles County & Prince George's County up to Upper Marlboro
+              Charles County & Prince George's County
             </span>
           </div>
         </div>
