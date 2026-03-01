@@ -175,7 +175,7 @@ const Services = () => {
             </h2>
             <div className="gold-divider w-16 mx-auto mb-4" />
             <p className="font-body text-muted-foreground">
-              Proudly serving all of Charles County and Prince George's County up to Upper Marlboro
+              Proudly serving Charles County & Prince George's County
             </p>
           </div>
 
