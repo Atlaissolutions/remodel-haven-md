@@ -42,8 +42,8 @@ const Contact = () => {
               {/* Call CTA */}
               <a
                 href="tel:2402996161"
-                className="flex items-center gap-4 p-5 bg-gradient-primary rounded-xl shadow-luxury group hover:opacity-90 transition-opacity"
-              >
+                className="flex items-center gap-4 p-5 bg-gradient-primary rounded-xl shadow-luxury group hover:opacity-90 transition-opacity">
+
                 <div className="p-3 bg-primary-foreground/20 rounded-lg">
                   <Phone size={24} className="text-primary-foreground" />
                 </div>
@@ -66,7 +66,7 @@ const Contact = () => {
                   <div>
                     <p className="font-body text-xs tracking-widest uppercase text-muted-foreground mb-1">Service Area</p>
                     <p className="font-body text-sm text-foreground font-medium">Charles County & PG County</p>
-                    <p className="font-body text-xs text-muted-foreground mt-0.5">Up to Upper Marlboro, MD</p>
+                    <p className="font-body text-xs text-muted-foreground mt-0.5">​</p>
                   </div>
                 </div>
 
@@ -96,9 +96,9 @@ const Contact = () => {
               {/* Rating */}
               <div className="luxury-card rounded-xl p-5">
                 <div className="flex items-center gap-2 mb-2">
-                  {[1,2,3,4,5].map(i => (
-                    <Star key={i} size={16} className="fill-gold text-gold" />
-                  ))}
+                  {[1, 2, 3, 4, 5].map((i) =>
+                  <Star key={i} size={16} className="fill-gold text-gold" />
+                  )}
                   <span className="font-body font-bold text-foreground ml-1">5.0</span>
                 </div>
                 <p className="font-body text-sm text-muted-foreground">
@@ -110,18 +110,18 @@ const Contact = () => {
               <div>
                 <h3 className="font-display text-lg font-semibold text-foreground mb-4">What Happens Next</h3>
                 {[
-                  "We review your project details",
-                  "We call or text you directly",
-                  "We schedule an in-home consultation",
-                  "We provide a detailed estimate",
-                ].map((step, i) => (
-                  <div key={step} className="flex items-center gap-3 mb-3">
+                "We review your project details",
+                "We call or text you directly",
+                "We schedule an in-home consultation",
+                "We provide a detailed estimate"].
+                map((step, i) =>
+                <div key={step} className="flex items-center gap-3 mb-3">
                     <div className="w-6 h-6 rounded-full bg-gradient-primary flex items-center justify-center shrink-0">
                       <span className="font-body text-xs font-bold text-primary-foreground">{i + 1}</span>
                     </div>
                     <span className="font-body text-sm text-foreground/80">{step}</span>
                   </div>
-                ))}
+                )}
               </div>
             </div>
 
@@ -146,21 +146,21 @@ const Contact = () => {
         <div className="container mx-auto px-6">
           <div className="flex flex-wrap justify-center gap-10">
             {[
-              { label: "Licensed MD Contractor", icon: Shield, color: "text-luxury-green" },
-              { label: "Fully Insured & Bonded", icon: CheckCircle, color: "text-gold" },
-              { label: "5-Star Google Rated", icon: Star, color: "text-luxury-blue-light" },
-              { label: "Free Estimates", icon: Phone, color: "text-primary-light" },
-            ].map(({ label, icon: Icon, color }) => (
-              <div key={label} className="flex flex-col items-center gap-2 text-center">
+            { label: "Licensed MD Contractor", icon: Shield, color: "text-luxury-green" },
+            { label: "Fully Insured & Bonded", icon: CheckCircle, color: "text-gold" },
+            { label: "5-Star Google Rated", icon: Star, color: "text-luxury-blue-light" },
+            { label: "Free Estimates", icon: Phone, color: "text-primary-light" }].
+            map(({ label, icon: Icon, color }) =>
+            <div key={label} className="flex flex-col items-center gap-2 text-center">
                 <Icon size={28} className={color} />
                 <span className="font-body text-sm text-foreground/80 font-medium">{label}</span>
               </div>
-            ))}
+            )}
           </div>
         </div>
       </section>
-    </div>
-  );
+    </div>);
+
 };
 
 export default Contact;
