@@ -44,7 +44,7 @@ const galleryItems = [
   { id: 14, src: galleryKitchenWhite, category: "Kitchen", title: "White Shaker Kitchen" },
   { id: 15, src: galleryEntertainment, category: "Basement", title: "Entertainment Center Buildout" },
   { id: 16, src: galleryTheater, category: "Basement", title: "Home Theater Room" },
-  { id: 24, src: galleryBasementOpen, category: "Basement", title: "Open Concept Basement" },
+  
   { id: 25, src: galleryExterior, category: "Full Remodel", title: "Full Exterior Renovation" },
   { id: 26, src: galleryChandelier, category: "Full Remodel", title: "Crystal Chandelier Install" },
   { id: 27, src: galleryRemodelFraming, category: "Full Remodel", title: "Full Framing & Demo" },
