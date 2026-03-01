@@ -19,7 +19,16 @@ import galleryInsurancePrep from "@/assets/gallery-insurance-prep.webp";
 import galleryRemodelFraming from "@/assets/gallery-remodel-framing.webp";
 import galleryBathJacuzzi from "@/assets/gallery-bath-jacuzzi.webp";
 import galleryBathIndustrial from "@/assets/gallery-bath-industrial.webp";
-
+import galleryDrywallRoom from "@/assets/gallery-drywall-room.jpeg";
+import galleryBasementFinished from "@/assets/gallery-basement-finished.jpeg";
+import galleryBathBlackFixtures from "@/assets/gallery-bath-black-fixtures.jpeg";
+import galleryBathBlackVanity from "@/assets/gallery-bath-black-vanity.jpeg";
+import galleryDeckOutdoor from "@/assets/gallery-deck-outdoor.jpeg";
+import galleryBathGoldVanity from "@/assets/gallery-bath-gold-vanity.jpeg";
+import galleryBathGoldMirror from "@/assets/gallery-bath-gold-mirror.jpeg";
+import galleryBathMarbleTub from "@/assets/gallery-bath-marble-tub.jpeg";
+import galleryShowerGoldRain from "@/assets/gallery-shower-gold-rain.jpeg";
+import galleryBathFullGold from "@/assets/gallery-bath-full-gold.jpeg";
 
 
 
