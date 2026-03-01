@@ -45,7 +45,7 @@ const galleryItems = [
   { id: 15, src: galleryEntertainment, category: "Basement", title: "Entertainment Center Buildout" },
   { id: 16, src: galleryTheater, category: "Basement", title: "Home Theater Room" },
   
-  { id: 25, src: galleryExterior, category: "Full Remodel", title: "Full Exterior Renovation" },
+  
   { id: 26, src: galleryChandelier, category: "Full Remodel", title: "Crystal Chandelier Install" },
   { id: 27, src: galleryRemodelFraming, category: "Full Remodel", title: "Full Framing & Demo" },
   { id: 28, src: galleryDrywallInstall, category: "Drywall", title: "Vaulted Ceiling Drywall" },
