@@ -21,7 +21,7 @@ import galleryBathJacuzzi from "@/assets/gallery-bath-jacuzzi.webp";
 import galleryBathIndustrial from "@/assets/gallery-bath-industrial.webp";
 
 
-import galleryKitchenClassic from "@/assets/gallery-kitchen-classic.jpeg";
+
 
 
 import ContactForm from "@/components/ContactForm";
