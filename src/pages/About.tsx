@@ -29,12 +29,13 @@ const About = () => {
           <div className="text-center">
             <div className="w-56 h-56 md:w-72 md:h-72 mx-auto mb-6 rounded-xl overflow-hidden border-4 border-gold/30 bg-muted">
               <img
-                src="/placeholder.svg"
+
                 alt="Owner"
-                className="w-full h-full object-cover"
-              />
+                className="w-full h-full object-cover" src="/lovable-uploads/da0bab7b-ecd3-46d9-988f-22193ea7ca83.jpg" />
+
             </div>
-            <h3 className="font-display text-2xl font-bold text-foreground mb-2">Owner Name</h3>
+            <h3 className="font-display text-2xl font-bold text-foreground mb-2">
+            </h3>
             <p className="font-body text-sm tracking-widest uppercase text-gold mb-4">Founder & Owner</p>
             <p className="font-body text-muted-foreground max-w-xl mx-auto leading-relaxed">
               A brief bio or message from the owner goes here.
@@ -65,8 +66,7 @@ const About = () => {
               </p>
             </div>
             <div className="space-y-4">
-              {[
-              { icon: Shield, text: "Licensed Maryland Contractor", color: "text-luxury-green" },
+              {[{ icon: Shield, text: "Licensed Maryland Contractor", color: "text-luxury-green" },
               { icon: Award, text: "Fully Insured & Bonded", color: "text-gold" },
               { icon: Heart, text: "Southern Maryland Based & Owned", color: "text-primary-light" },
               { icon: Users, text: "500+ Happy Homeowners", color: "text-luxury-blue-light" },
@@ -93,8 +93,8 @@ const About = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
             {[
             { title: "Transparent Pricing", desc: "No hidden fees, no surprise charges. You'll know exactly what you're getting and what it costs — before a single nail is driven.", icon: "💎" },
-            { title: "White-Glove Service", desc: "From first contact to final walkthrough, we treat your home with the respect it deserves. Clean job sites, professional conduct, on-time delivery.", icon: "🤝" },
-            ].
+            { title: "White-Glove Service", desc: "From first contact to final walkthrough, we treat your home with the respect it deserves. Clean job sites, professional conduct, on-time delivery.", icon: "🤝" }].
+
             map((v) =>
             <div key={v.title} className="luxury-card rounded-xl p-8 text-center hover:-translate-y-1 transition-transform duration-300">
                 <div className="text-4xl mb-4">{v.icon}</div>
