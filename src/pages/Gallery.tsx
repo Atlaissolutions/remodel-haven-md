@@ -23,7 +23,7 @@ import galleryBathIndustrial from "@/assets/gallery-bath-industrial.webp";
 import galleryKitchenModern from "@/assets/gallery-kitchen-modern.avif";
 import galleryKitchenClassic from "@/assets/gallery-kitchen-classic.jpeg";
 
-import galleryExterior from "@/assets/gallery-exterior.jpg";
+
 import ContactForm from "@/components/ContactForm";
 import { useState } from "react";
 
