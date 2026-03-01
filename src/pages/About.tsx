@@ -83,26 +83,6 @@ const About = () => {
         </div>
       </section>
 
-      {/* ─── OWNER ─── */}
-      <section className="py-20 bg-card/50 border-y border-border">
-        <div className="container mx-auto px-6 max-w-4xl">
-          <div className="text-center">
-            <div className="w-40 h-40 mx-auto mb-6 rounded-full overflow-hidden border-4 border-gold/30 bg-muted">
-              <img
-                src="/placeholder.svg"
-                alt="Owner"
-                className="w-full h-full object-cover"
-              />
-            </div>
-            <h3 className="font-display text-2xl font-bold text-foreground mb-2">Owner Name</h3>
-            <p className="font-body text-sm tracking-widest uppercase text-gold mb-4">Founder & Owner</p>
-            <p className="font-body text-muted-foreground max-w-xl mx-auto leading-relaxed">
-              A brief bio or message from the owner goes here.
-            </p>
-          </div>
-        </div>
-      </section>
-
       {/* ─── VALUES ─── */}
       <section className="py-20 bg-card border-y border-border">
         <div className="container mx-auto px-6">
