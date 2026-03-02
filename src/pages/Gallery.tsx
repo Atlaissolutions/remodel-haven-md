@@ -46,7 +46,7 @@ const galleryItems = [
   { id: 7, src: galleryBathVanity, category: "Bathroom", title: "Classic Vanity Remodel" },
   { id: 8, src: galleryBathStone, category: "Bathroom", title: "Stone Accent Spa Bath" },
   { id: 9, src: galleryBathDual, category: "Bathroom", title: "Dual Vanity Walk-In Shower" },
-  { id: 10, src: galleryBathJacuzzi, category: "Bathroom", title: "Jacuzzi Tub & Stone Wall" },
+  
   { id: 11, src: galleryBathIndustrial, category: "Bathroom", title: "Industrial Chic Bathroom" },
   
   
