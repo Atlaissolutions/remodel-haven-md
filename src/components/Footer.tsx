@@ -48,10 +48,10 @@ const Footer = () => {
               </span>
             </div>
             <div className="flex gap-3 mt-4">
-              <a href="https://www.facebook.com/ready2remodel" target="_blank" rel="noopener noreferrer" className="p-2 rounded border border-border hover:border-gold hover:text-gold text-muted-foreground transition-colors">
+              <a href="https://www.facebook.com/p/Ready-2-Remodel-100089118638354/" target="_blank" rel="noopener noreferrer" className="p-2 rounded border border-border hover:border-gold hover:text-gold text-muted-foreground transition-colors">
                 <Facebook size={16} />
               </a>
-              <a href="https://www.instagram.com/ready2remodel" target="_blank" rel="noopener noreferrer" className="p-2 rounded border border-border hover:border-gold hover:text-gold text-muted-foreground transition-colors">
+              <a href="https://www.instagram.com/ready2remodel_/" target="_blank" rel="noopener noreferrer" className="p-2 rounded border border-border hover:border-gold hover:text-gold text-muted-foreground transition-colors">
                 <Instagram size={16} />
               </a>
               <a href="https://www.tiktok.com/@ready2remodel" target="_blank" rel="noopener noreferrer" className="p-2 rounded border border-border hover:border-gold hover:text-gold text-muted-foreground transition-colors">
