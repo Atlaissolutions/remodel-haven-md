@@ -66,7 +66,7 @@ const galleryItems = [
   { id: 34, src: galleryBathBlackVanity, category: "Bathroom", title: "Double Vanity Black Hardware" },
   { id: 35, src: galleryDeckOutdoor, category: "Full Remodel", title: "Outdoor Deck Build" },
   { id: 36, src: galleryBathGoldVanity, category: "Bathroom", title: "Gray Vanity & Gold Fixtures" },
-  { id: 37, src: galleryBathGoldMirror, category: "Bathroom", title: "LED Mirror & Gold Accents" },
+  
   { id: 38, src: galleryBathMarbleTub, category: "Bathroom", title: "Marble Tub & Glass Shower" },
   { id: 39, src: galleryShowerGoldRain, category: "Bathroom", title: "Gold Rain Shower Head" },
 ];
