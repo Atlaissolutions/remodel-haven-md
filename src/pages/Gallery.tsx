@@ -28,7 +28,7 @@ import galleryBathGoldVanity from "@/assets/gallery-bath-gold-vanity.jpeg";
 import galleryBathGoldMirror from "@/assets/gallery-bath-gold-mirror.jpeg";
 import galleryBathMarbleTub from "@/assets/gallery-bath-marble-tub.jpeg";
 import galleryShowerGoldRain from "@/assets/gallery-shower-gold-rain.jpeg";
-import galleryBathFullGold from "@/assets/gallery-bath-full-gold.jpeg";
+
 
 
 
@@ -69,7 +69,6 @@ const galleryItems = [
   { id: 37, src: galleryBathGoldMirror, category: "Bathroom", title: "LED Mirror & Gold Accents" },
   { id: 38, src: galleryBathMarbleTub, category: "Bathroom", title: "Marble Tub & Glass Shower" },
   { id: 39, src: galleryShowerGoldRain, category: "Bathroom", title: "Gold Rain Shower Head" },
-  { id: 40, src: galleryBathFullGold, category: "Bathroom", title: "Full Gold Accent Master Bath" },
 ];
 
 // categories removed
