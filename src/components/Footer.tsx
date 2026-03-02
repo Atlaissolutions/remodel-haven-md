@@ -48,11 +48,14 @@ const Footer = () => {
               </span>
             </div>
             <div className="flex gap-3 mt-4">
-              <a href="#" className="p-2 rounded border border-border hover:border-gold hover:text-gold text-muted-foreground transition-colors">
+              <a href="https://www.facebook.com/ready2remodel" target="_blank" rel="noopener noreferrer" className="p-2 rounded border border-border hover:border-gold hover:text-gold text-muted-foreground transition-colors">
                 <Facebook size={16} />
               </a>
-              <a href="#" className="p-2 rounded border border-border hover:border-gold hover:text-gold text-muted-foreground transition-colors">
+              <a href="https://www.instagram.com/ready2remodel" target="_blank" rel="noopener noreferrer" className="p-2 rounded border border-border hover:border-gold hover:text-gold text-muted-foreground transition-colors">
                 <Instagram size={16} />
+              </a>
+              <a href="https://www.tiktok.com/@ready2remodel" target="_blank" rel="noopener noreferrer" className="p-2 rounded border border-border hover:border-gold hover:text-gold text-muted-foreground transition-colors">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"/></svg>
               </a>
             </div>
           </div>
