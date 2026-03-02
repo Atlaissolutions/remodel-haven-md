@@ -17,7 +17,7 @@ import galleryKitchenWhite from "@/assets/gallery-kitchen-white.webp";
 
 import galleryInsurancePrep from "@/assets/gallery-insurance-prep.webp";
 import galleryRemodelFraming from "@/assets/gallery-remodel-framing.webp";
-import galleryBathJacuzzi from "@/assets/gallery-bath-jacuzzi.webp";
+
 import galleryBathIndustrial from "@/assets/gallery-bath-industrial.webp";
 import galleryDrywallRoom from "@/assets/gallery-drywall-room.jpeg";
 import galleryBasementFinished from "@/assets/gallery-basement-finished.jpeg";
