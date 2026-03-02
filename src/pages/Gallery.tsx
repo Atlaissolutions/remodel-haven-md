@@ -3,7 +3,7 @@ import galleryShowerMarble from "@/assets/gallery-shower-marble.webp";
 import galleryTubWhite from "@/assets/gallery-tub-white.webp";
 import galleryBathLuxury from "@/assets/gallery-bath-luxury.webp";
 import galleryChandelier from "@/assets/gallery-chandelier.webp";
-import galleryBathModern from "@/assets/gallery-bath-modern.webp";
+
 import galleryBathDouble from "@/assets/gallery-bath-double.webp";
 import galleryBathVanity from "@/assets/gallery-bath-vanity.webp";
 import galleryEntertainment from "@/assets/gallery-entertainment.webp";
@@ -40,7 +40,7 @@ const galleryItems = [
   { id: 1, src: galleryBathLuxury, category: "Bathroom", title: "Luxury Marble Master Bath", featured: true },
   { id: 2, src: galleryShowerMarble, category: "Bathroom", title: "Marble Walk-In Shower" },
   { id: 3, src: galleryBathFreestanding, category: "Bathroom", title: "Freestanding Tub Suite" },
-  { id: 4, src: galleryBathModern, category: "Bathroom", title: "Modern Vanity & LED Mirror" },
+  
   { id: 5, src: galleryTubWhite, category: "Bathroom", title: "Clean White Tub Surround" },
   { id: 6, src: galleryBathDouble, category: "Bathroom", title: "Double Vanity Installation" },
   { id: 7, src: galleryBathVanity, category: "Bathroom", title: "Classic Vanity Remodel" },
