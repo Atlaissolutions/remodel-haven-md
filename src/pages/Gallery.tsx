@@ -3,7 +3,7 @@ import galleryShowerMarble from "@/assets/gallery-shower-marble.webp";
 import galleryTubWhite from "@/assets/gallery-tub-white.webp";
 import galleryBathLuxury from "@/assets/gallery-bath-luxury.webp";
 import galleryChandelier from "@/assets/gallery-chandelier.webp";
-import galleryBathModern from "@/assets/gallery-bath-modern.webp";
+
 import galleryBathDouble from "@/assets/gallery-bath-double.webp";
 import galleryBathVanity from "@/assets/gallery-bath-vanity.webp";
 import galleryEntertainment from "@/assets/gallery-entertainment.webp";
