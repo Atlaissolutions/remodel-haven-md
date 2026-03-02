@@ -28,7 +28,7 @@ import galleryBathGoldVanity from "@/assets/gallery-bath-gold-vanity.jpeg";
 import galleryBathGoldMirror from "@/assets/gallery-bath-gold-mirror.jpeg";
 import galleryBathMarbleTub from "@/assets/gallery-bath-marble-tub.jpeg";
 import galleryShowerGoldRain from "@/assets/gallery-shower-gold-rain.jpeg";
-import galleryBathFullGold from "@/assets/gallery-bath-full-gold.jpeg";
+
 
 
 
