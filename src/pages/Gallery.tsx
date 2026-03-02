@@ -25,7 +25,7 @@ import galleryBathBlackFixtures from "@/assets/gallery-bath-black-fixtures.jpeg"
 import galleryBathBlackVanity from "@/assets/gallery-bath-black-vanity.jpeg";
 import galleryDeckOutdoor from "@/assets/gallery-deck-outdoor.jpeg";
 import galleryBathGoldVanity from "@/assets/gallery-bath-gold-vanity.jpeg";
-import galleryBathGoldMirror from "@/assets/gallery-bath-gold-mirror.jpeg";
+
 import galleryBathMarbleTub from "@/assets/gallery-bath-marble-tub.jpeg";
 import galleryShowerGoldRain from "@/assets/gallery-shower-gold-rain.jpeg";
 
@@ -66,7 +66,7 @@ const galleryItems = [
   { id: 34, src: galleryBathBlackVanity, category: "Bathroom", title: "Double Vanity Black Hardware" },
   { id: 35, src: galleryDeckOutdoor, category: "Full Remodel", title: "Outdoor Deck Build" },
   { id: 36, src: galleryBathGoldVanity, category: "Bathroom", title: "Gray Vanity & Gold Fixtures" },
-  { id: 37, src: galleryBathGoldMirror, category: "Bathroom", title: "LED Mirror & Gold Accents" },
+  
   { id: 38, src: galleryBathMarbleTub, category: "Bathroom", title: "Marble Tub & Glass Shower" },
   { id: 39, src: galleryShowerGoldRain, category: "Bathroom", title: "Gold Rain Shower Head" },
 ];
