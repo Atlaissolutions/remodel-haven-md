@@ -25,7 +25,7 @@ import galleryBathBlackFixtures from "@/assets/gallery-bath-black-fixtures.jpeg"
 import galleryBathBlackVanity from "@/assets/gallery-bath-black-vanity.jpeg";
 import galleryDeckOutdoor from "@/assets/gallery-deck-outdoor.jpeg";
 import galleryBathGoldVanity from "@/assets/gallery-bath-gold-vanity.jpeg";
-import galleryBathGoldMirror from "@/assets/gallery-bath-gold-mirror.jpeg";
+
 import galleryBathMarbleTub from "@/assets/gallery-bath-marble-tub.jpeg";
 import galleryShowerGoldRain from "@/assets/gallery-shower-gold-rain.jpeg";
 
