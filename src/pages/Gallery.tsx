@@ -27,7 +27,7 @@ import galleryDeckOutdoor from "@/assets/gallery-deck-outdoor.jpeg";
 import galleryBathGoldVanity from "@/assets/gallery-bath-gold-vanity.jpeg";
 
 import galleryBathMarbleTub from "@/assets/gallery-bath-marble-tub.jpeg";
-import galleryShowerGoldRain from "@/assets/gallery-shower-gold-rain.jpeg";
+
 
 
 
