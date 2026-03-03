@@ -27,10 +27,16 @@ import galleryDeckOutdoor from "@/assets/gallery-deck-outdoor.jpeg";
 import galleryBathGoldVanity from "@/assets/gallery-bath-gold-vanity.jpeg";
 
 import galleryBathMarbleTub from "@/assets/gallery-bath-marble-tub.jpeg";
-
-
-
-
+import galleryBathMarbleShower from "@/assets/gallery-bath-marble-shower.png";
+import galleryBathPebbleShower from "@/assets/gallery-bath-pebble-shower.jpeg";
+import galleryBathWaveAccent from "@/assets/gallery-bath-wave-accent.jpeg";
+import galleryBathWoodTile from "@/assets/gallery-bath-wood-tile.jpeg";
+import galleryBathGoldShower from "@/assets/gallery-bath-gold-shower.jpeg";
+import galleryBathGlassEnclosure from "@/assets/gallery-bath-glass-enclosure.jpeg";
+import galleryBathWalkinTub from "@/assets/gallery-bath-walkin-tub.jpeg";
+import galleryBathGrayTile from "@/assets/gallery-bath-gray-tile.jpeg";
+import galleryBathGreenGold from "@/assets/gallery-bath-green-gold.jpeg";
+import galleryBathGoldSliding from "@/assets/gallery-bath-gold-sliding.jpeg";
 
 
 import ContactForm from "@/components/ContactForm";
@@ -68,7 +74,17 @@ const galleryItems = [
   { id: 36, src: galleryBathGoldVanity, category: "Bathroom", title: "Gray Vanity & Gold Fixtures" },
   
   { id: 38, src: galleryBathMarbleTub, category: "Bathroom", title: "Marble Tub & Glass Shower" },
-  
+  { id: 40, src: galleryBathMarbleShower, category: "Bathroom", title: "Marble Sliding Door Shower" },
+  { id: 41, src: galleryBathPebbleShower, category: "Bathroom", title: "Pebble Floor Walk-In Shower" },
+  { id: 42, src: galleryBathWaveAccent, category: "Bathroom", title: "Wave Accent Wall Bath" },
+  { id: 43, src: galleryBathWoodTile, category: "Bathroom", title: "Wood Tile Shower Panel" },
+  { id: 44, src: galleryBathGoldShower, category: "Bathroom", title: "Gold Dual Shower System" },
+  { id: 45, src: galleryBathGlassEnclosure, category: "Bathroom", title: "Frameless Glass Enclosure" },
+  { id: 46, src: galleryBathWalkinTub, category: "Bathroom", title: "Walk-In Tub Installation" },
+  { id: 47, src: galleryBathGrayTile, category: "Bathroom", title: "Gray Tile Tub Surround" },
+  { id: 48, src: galleryBathGreenGold, category: "Bathroom", title: "Green & Gold Bath Remodel" },
+  { id: 49, src: galleryBathGoldSliding, category: "Bathroom", title: "Gold Sliding Shower Door" },
+
 ];
 
 // categories removed
