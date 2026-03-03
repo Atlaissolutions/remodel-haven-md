@@ -27,7 +27,7 @@ import galleryDeckOutdoor from "@/assets/gallery-deck-outdoor.jpeg";
 import galleryBathGoldVanity from "@/assets/gallery-bath-gold-vanity.jpeg";
 
 import galleryBathMarbleTub from "@/assets/gallery-bath-marble-tub.jpeg";
-import galleryShowerGoldRain from "@/assets/gallery-shower-gold-rain.jpeg";
+
 
 
 
@@ -68,7 +68,7 @@ const galleryItems = [
   { id: 36, src: galleryBathGoldVanity, category: "Bathroom", title: "Gray Vanity & Gold Fixtures" },
   
   { id: 38, src: galleryBathMarbleTub, category: "Bathroom", title: "Marble Tub & Glass Shower" },
-  { id: 39, src: galleryShowerGoldRain, category: "Bathroom", title: "Gold Rain Shower Head" },
+  
 ];
 
 // categories removed
