@@ -68,7 +68,7 @@ const galleryItems = [
   { id: 36, src: galleryBathGoldVanity, category: "Bathroom", title: "Gray Vanity & Gold Fixtures" },
   
   { id: 38, src: galleryBathMarbleTub, category: "Bathroom", title: "Marble Tub & Glass Shower" },
-  { id: 39, src: galleryShowerGoldRain, category: "Bathroom", title: "Gold Rain Shower Head" },
+  
 ];
 
 // categories removed
