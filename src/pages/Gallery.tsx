@@ -74,7 +74,17 @@ const galleryItems = [
   { id: 36, src: galleryBathGoldVanity, category: "Bathroom", title: "Gray Vanity & Gold Fixtures" },
   
   { id: 38, src: galleryBathMarbleTub, category: "Bathroom", title: "Marble Tub & Glass Shower" },
-  
+  { id: 40, src: galleryBathMarbleShower, category: "Bathroom", title: "Marble Sliding Door Shower" },
+  { id: 41, src: galleryBathPebbleShower, category: "Bathroom", title: "Pebble Floor Walk-In Shower" },
+  { id: 42, src: galleryBathWaveAccent, category: "Bathroom", title: "Wave Accent Wall Bath" },
+  { id: 43, src: galleryBathWoodTile, category: "Bathroom", title: "Wood Tile Shower Panel" },
+  { id: 44, src: galleryBathGoldShower, category: "Bathroom", title: "Gold Dual Shower System" },
+  { id: 45, src: galleryBathGlassEnclosure, category: "Bathroom", title: "Frameless Glass Enclosure" },
+  { id: 46, src: galleryBathWalkinTub, category: "Bathroom", title: "Walk-In Tub Installation" },
+  { id: 47, src: galleryBathGrayTile, category: "Bathroom", title: "Gray Tile Tub Surround" },
+  { id: 48, src: galleryBathGreenGold, category: "Bathroom", title: "Green & Gold Bath Remodel" },
+  { id: 49, src: galleryBathGoldSliding, category: "Bathroom", title: "Gold Sliding Shower Door" },
+
 ];
 
 // categories removed
