@@ -27,10 +27,16 @@ import galleryDeckOutdoor from "@/assets/gallery-deck-outdoor.jpeg";
 import galleryBathGoldVanity from "@/assets/gallery-bath-gold-vanity.jpeg";
 
 import galleryBathMarbleTub from "@/assets/gallery-bath-marble-tub.jpeg";
-
-
-
-
+import galleryBathMarbleShower from "@/assets/gallery-bath-marble-shower.png";
+import galleryBathPebbleShower from "@/assets/gallery-bath-pebble-shower.jpeg";
+import galleryBathWaveAccent from "@/assets/gallery-bath-wave-accent.jpeg";
+import galleryBathWoodTile from "@/assets/gallery-bath-wood-tile.jpeg";
+import galleryBathGoldShower from "@/assets/gallery-bath-gold-shower.jpeg";
+import galleryBathGlassEnclosure from "@/assets/gallery-bath-glass-enclosure.jpeg";
+import galleryBathWalkinTub from "@/assets/gallery-bath-walkin-tub.jpeg";
+import galleryBathGrayTile from "@/assets/gallery-bath-gray-tile.jpeg";
+import galleryBathGreenGold from "@/assets/gallery-bath-green-gold.jpeg";
+import galleryBathGoldSliding from "@/assets/gallery-bath-gold-sliding.jpeg";
 
 
 import ContactForm from "@/components/ContactForm";
