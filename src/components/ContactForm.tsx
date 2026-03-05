@@ -39,21 +39,35 @@ const ContactForm = ({ compact = false, className = "" }: ContactFormProps) => {
     setLoading(true);
     setError("");
 
+    const payload = {
+      name: form.name,
+      phone: form.phone,
+      email: form.email || null,
+      service: form.service,
+      description: form.description,
+    };
+
     const { error: dbError } = await supabase
       .from("contact_submissions")
-      .insert({
-        name: form.name,
-        phone: form.phone,
-        email: form.email || null,
-        service: form.service,
-        description: form.description,
-      });
+      .insert(payload);
 
     if (dbError) {
       console.error("Submission error:", dbError);
       setError("Something went wrong. Please try again or call us directly.");
       setLoading(false);
       return;
+    }
+
+    // Send to Make.com webhook
+    try {
+      await fetch("https://hook.us2.make.com/b56vccxkh8aug38twnlr10paajfatvaw", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload),
+      });
+    } catch (webhookErr) {
+      console.error("Webhook error:", webhookErr);
+      // Don't block submission if webhook fails
     }
 
     setSubmitted(true);
