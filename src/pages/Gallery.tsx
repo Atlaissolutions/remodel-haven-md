@@ -106,9 +106,6 @@ const Gallery = () => {
             Gallery of Excellence
           </h1>
           <div className="gold-divider w-20 mx-auto mb-6" />
-          <p className="font-body text-muted-foreground max-w-xl mx-auto text-lg">
-            A showcase of transformations across Southern Maryland — every project a testament to craftsmanship.
-          </p>
         </div>
       </section>
 
