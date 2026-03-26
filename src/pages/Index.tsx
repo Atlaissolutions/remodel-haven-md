@@ -145,9 +145,6 @@ const Index = () => {
         </div>
       </section>
 
-      {/* ─── GOOGLE REVIEWS ─── */}
-      <GoogleReviews />
-
       {/* ─── SERVICES PREVIEW ─── */}
       <section className="py-20 bg-card">
         <div className="container mx-auto px-6">
@@ -195,6 +192,9 @@ const Index = () => {
           </div>
         </div>
       </section>
+
+      {/* ─── GOOGLE REVIEWS ─── */}
+      <GoogleReviews />
 
       {/* ─── CTA + FORM ─── */}
       <section className="py-20 bg-gradient-hero">
