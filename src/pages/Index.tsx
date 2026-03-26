@@ -196,54 +196,6 @@ const Index = () => {
       {/* ─── GOOGLE REVIEWS ─── */}
       <GoogleReviews />
 
-      {/* ─── SERVICES PREVIEW ─── */}
-      <section className="py-20 bg-card">
-        <div className="container mx-auto px-6">
-          <div className="text-center mb-14">
-            <p className="font-body text-xs tracking-widest uppercase text-gold mb-3">What We Do</p>
-            <h2 className="font-display text-3xl md:text-5xl font-bold text-foreground mb-4">
-              Interior Remodeling Specialists
-            </h2>
-            <div className="gold-divider w-20 mx-auto" />
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {services.map((service) => (
-              <div key={service.title} className="group relative overflow-hidden rounded-xl luxury-card hover:-translate-y-2 transition-all duration-500 cursor-pointer">
-                <div className="aspect-[4/3] overflow-hidden">
-                  <img
-                    src={service.image}
-                    alt={service.title}
-                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-background/90 via-background/30 to-transparent" />
-                </div>
-                <div className="absolute bottom-0 left-0 right-0 p-6">
-                  <p className="text-2xl mb-2">{service.icon}</p>
-                  <h3 className="font-display text-xl font-bold text-foreground mb-2">{service.title}</h3>
-                  <p className="font-body text-sm text-foreground/70 leading-relaxed">{service.desc}</p>
-                  <Link
-                    to="/services#kitchen-remodeling"
-                    className="inline-flex items-center gap-1 mt-4 text-gold font-body text-xs font-semibold tracking-widest uppercase hover:gap-2 transition-all"
-                  >
-                    Learn More <ChevronRight size={14} />
-                  </Link>
-                </div>
-              </div>
-            ))}
-          </div>
-
-          <div className="text-center mt-10">
-            <Link
-              to="/services"
-              className="inline-flex items-center gap-2 px-10 py-4 bg-gradient-primary rounded text-primary-foreground font-body font-semibold tracking-wider uppercase text-sm shadow-luxury hover:opacity-90 transition-opacity"
-            >
-              View All Services
-            </Link>
-          </div>
-        </div>
-      </section>
-
       {/* ─── CTA + FORM ─── */}
       <section className="py-20 bg-gradient-hero">
         <div className="container mx-auto px-6">
