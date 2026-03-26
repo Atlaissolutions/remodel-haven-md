@@ -88,7 +88,7 @@ const Index = () => {
 
             {/* Trust badges */}
             <div className="flex flex-wrap gap-4 mt-10">
-              {["Fully Insured", "5-Star Google Rated", "Free Estimates"].map((badge) => (
+              {["Black Owned", "5-Star Google Rated", "Free Estimates"].map((badge) => (
                 <div key={badge} className="flex items-center gap-1.5">
                   <CheckCircle size={14} className="text-luxury-green" />
                   <span className="font-body text-xs text-foreground/70">{badge}</span>
