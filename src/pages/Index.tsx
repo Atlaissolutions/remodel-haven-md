@@ -210,7 +210,7 @@ const Index = () => {
                 Tell us about your project and we'll reach out personally to discuss your vision, timeline, and budget. No pushy sales — just straight talk from Southern Maryland's premier remodeling experts.
               </p>
               <div className="space-y-3">
-                {["Free, no-obligation project consultation", "Licensed & insured for your protection", "Serving Charles County & PG County", "Insurance claim assistance available"].map((item) => (
+                {["No-obligation project consultation", "Licensed & insured for your protection", "Serving Charles County & PG County", "Insurance claim assistance available"].map((item) => (
                   <div key={item} className="flex items-center gap-3">
                     <CheckCircle size={16} className="text-luxury-green shrink-0" />
                     <span className="font-body text-sm text-foreground/80">{item}</span>

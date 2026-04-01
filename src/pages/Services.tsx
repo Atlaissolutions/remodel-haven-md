@@ -155,7 +155,7 @@ const Services = () => {
                       href="tel:2402996161"
                       className="inline-flex items-center gap-2 px-7 py-3.5 bg-gradient-primary rounded text-primary-foreground font-body text-sm font-semibold tracking-wider uppercase shadow-luxury hover:opacity-90 transition-opacity"
                     >
-                      Call for a Free Quote
+                      Call for a Quote
                     </a>
                   </div>
                 </div>
