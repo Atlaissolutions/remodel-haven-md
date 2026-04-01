@@ -76,7 +76,7 @@ const Index = () => {
                 href="tel:2402996161"
                 className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-primary rounded text-primary-foreground font-body font-semibold tracking-wider uppercase text-sm shadow-luxury hover:opacity-90 transition-opacity"
               >
-                Call for Free Estimate
+                Call for Estimate
               </a>
               <Link
                 to="/gallery"
@@ -88,7 +88,7 @@ const Index = () => {
 
             {/* Trust badges */}
             <div className="flex flex-wrap gap-4 mt-10">
-              {["Black Owned", "5-Star Google Rated", "Free Estimates"].map((badge) => (
+              {["Black Owned", "5-Star Google Rated", "Estimates"].map((badge) => (
                 <div key={badge} className="flex items-center gap-1.5">
                   <CheckCircle size={14} className="text-luxury-green" />
                   <span className="font-body text-xs text-foreground/70">{badge}</span>
@@ -210,7 +210,7 @@ const Index = () => {
                 Tell us about your project and we'll reach out personally to discuss your vision, timeline, and budget. No pushy sales — just straight talk from Southern Maryland's premier remodeling experts.
               </p>
               <div className="space-y-3">
-                {["Free, no-obligation project consultation", "Licensed & insured for your protection", "Serving Charles County & PG County", "Insurance claim assistance available"].map((item) => (
+                {["No-obligation project consultation", "Licensed & insured for your protection", "Serving Charles County & PG County", "Insurance claim assistance available"].map((item) => (
                   <div key={item} className="flex items-center gap-3">
                     <CheckCircle size={16} className="text-luxury-green shrink-0" />
                     <span className="font-body text-sm text-foreground/80">{item}</span>

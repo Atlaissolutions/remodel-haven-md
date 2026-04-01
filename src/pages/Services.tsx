@@ -155,7 +155,7 @@ const Services = () => {
                       href="tel:2402996161"
                       className="inline-flex items-center gap-2 px-7 py-3.5 bg-gradient-primary rounded text-primary-foreground font-body text-sm font-semibold tracking-wider uppercase shadow-luxury hover:opacity-90 transition-opacity"
                     >
-                      Call for a Free Quote
+                      Call for a Quote
                     </a>
                   </div>
                 </div>
@@ -235,7 +235,7 @@ const Services = () => {
       <section className="py-20 bg-gradient-hero">
         <div className="container mx-auto px-6 max-w-3xl">
           <div className="text-center mb-10">
-            <h2 className="font-display text-3xl font-bold text-foreground mb-3">Request a Free Estimate</h2>
+            <h2 className="font-display text-3xl font-bold text-foreground mb-3">Request an Estimate</h2>
             <div className="gold-divider w-16 mx-auto mb-4" />
             <p className="font-body text-muted-foreground">Tell us about your project and we'll reach out within 24 hours.</p>
           </div>

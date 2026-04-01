@@ -149,7 +149,7 @@ const Contact = () => {
             { label: "Licensed MD Contractor", icon: Shield, color: "text-luxury-green" },
             { label: "Fully Insured & Bonded", icon: CheckCircle, color: "text-gold" },
             { label: "5-Star Google Rated", icon: Star, color: "text-luxury-blue-light" },
-            { label: "Free Estimates", icon: Phone, color: "text-primary-light" }].
+            { label: "Estimates", icon: Phone, color: "text-primary-light" }].
             map(({ label, icon: Icon, color }) =>
             <div key={label} className="flex flex-col items-center gap-2 text-center">
                 <Icon size={28} className={color} />
