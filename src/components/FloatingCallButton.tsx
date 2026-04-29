@@ -3,7 +3,7 @@ import { Phone } from "lucide-react";
 const FloatingCallButton = () => {
   return (
     <a
-      href="tel:2402996161"
+      href="tel:2402296161"
       className="fixed bottom-8 right-8 z-50 flex items-center gap-3 bg-gradient-primary text-primary-foreground px-5 py-4 rounded-full shadow-luxury hover:scale-105 active:scale-95 transition-all duration-300 group"
       aria-label="Call Ready 2 Remodel"
     >

@@ -41,7 +41,7 @@ const Contact = () => {
 
               {/* Call CTA */}
               <a
-                href="tel:2402996161"
+                href="tel:2402296161"
                 className="flex items-center gap-4 p-5 bg-gradient-primary rounded-xl shadow-luxury group hover:opacity-90 transition-opacity">
 
                 <div className="p-3 bg-primary-foreground/20 rounded-lg">
@@ -52,7 +52,7 @@ const Contact = () => {
                     Preferred — Call or Text
                   </p>
                   <p className="font-display text-xl font-bold text-primary-foreground">
-                    (240) 299-6161
+                    (240) 229-6161
                   </p>
                 </div>
               </a>
