@@ -57,7 +57,7 @@ const Navbar = () => {
               </Link>
             ))}
             <a
-              href="tel:2402996161"
+              href="tel:2402296161"
               className="ml-4 px-6 py-2.5 bg-gradient-primary rounded text-sm font-body font-600 tracking-wider text-primary-foreground uppercase shadow-luxury hover:opacity-90 transition-opacity"
             >
               Call Now
@@ -88,7 +88,7 @@ const Navbar = () => {
               ))}
               <div className="px-4 pt-2 pb-4">
                 <a
-                  href="tel:2402996161"
+                  href="tel:2402296161"
                   className="block text-center px-6 py-3 bg-gradient-primary rounded text-sm font-body font-600 tracking-wider text-primary-foreground uppercase"
                 >
                   Call Now
